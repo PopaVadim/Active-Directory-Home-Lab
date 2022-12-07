@@ -24,7 +24,7 @@ This project is a walkthrough of how I created an Active Directory home lab Envi
 <br />
 <br />
 <b>I created in VirtualBox the first Virtual Machine for the Server 2019 and named it DC for Domain Controller.</b> <br/>
-<img src="src="https://user-images.githubusercontent.com/117952272/206299795-86d59fd5-e101-4de8-96fd-722e1c794e86.png"" height="80%" width="80%" alt="The first Virtual Machine for the Server 2019"/>
+<img src="https://user-images.githubusercontent.com/117952272/206299795-86d59fd5-e101-4de8-96fd-722e1c794e86.png" height="80%" width="80%" alt="The first Virtual Machine for the Server 2019"/>
 <br />
 <br />
 <br/>
