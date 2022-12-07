@@ -20,6 +20,7 @@ This project is a walkthrough of how I created an Active Directory home lab Envi
 
 <p align="center">
 <b>The network diagram I'll be using for this project</b> <br/>
-<img src="https://user-images.githubusercontent.com/117952272/206294991-0d6d879d-1e7c-4495-b5a0-b6a82c799e98.png" height="80%" width="80%" alt="Network Diagram"/>
+<img width="839" alt="Network_Diagram" src="https://user-images.githubusercontent.com/117952272/206298370-d6be8abf-e0f5-45fb-bcbe-f0be332a7cff.png">
 <br />
 <br />
+
