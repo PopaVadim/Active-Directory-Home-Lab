@@ -20,7 +20,7 @@ This project is a walkthrough of how I created an Active Directory home lab Envi
 
 <p align="center">
 <b>The network diagram I'll be using for this project</b> <br/>
-<img width="839" alt="Network_Diagram" src="https://user-images.githubusercontent.com/117952272/206298370-d6be8abf-e0f5-45fb-bcbe-f0be332a7cff.png">
+<img height="80%" width="80%" alt="Network_Diagram" src="https://user-images.githubusercontent.com/117952272/206298370-d6be8abf-e0f5-45fb-bcbe-f0be332a7cff.png">
 <br />
 <br />
 <b>I created in VirtualBox the first Virtual Machine for the Server 2019 and named it DC for Domain Controller.</b> <br/>
