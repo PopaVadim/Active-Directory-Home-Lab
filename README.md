@@ -28,5 +28,23 @@ This project is a walkthrough of how I created an Active Directory home lab Envi
 <br />
 <br />
 <br/>
+<br />
+<b>According to our network diagram we need two Network adapters.</b>
+<b>We set Network adapter 1 as NAT which will connect to the home network.</b> <br/><br />
+<img src="https://user-images.githubusercontent.com/117952272/206301688-eec8da11-6993-4929-864f-be5360b48158.png" height="80%" width="80%" alt="Network Adapter 1"/>
+<br />
+<br />
+<br/>
+<br />
+<br />
+<br/>
+<br />
+<b>Here we set up the second Network Adapter that is dedicated to the internal virtual network.</b> <br/><br />
+<img src="https://user-images.githubusercontent.com/117952272/206302580-16ceda9c-3450-473d-86bd-16b207de09c0.png" height="80%" width="80%" alt="Network Adapter 2"/>
+<br />
+<br />
+
+
+
 
 
