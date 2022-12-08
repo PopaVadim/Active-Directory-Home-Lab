@@ -90,6 +90,11 @@ https://user-images.githubusercontent.com/117952272/206577016-f6435850-780a-43fd
 <br />
 <br />
 <br/>
+<b>After we renamed the PC we pursued to install the Active Directory.</b><br /><br />  
+  
+https://user-images.githubusercontent.com/117952272/206587478-7639ba7b-91f5-44ff-bcef-0c548a912ad2.mp4
 
+  <br />
+<br />
+<br/>
 
- 
