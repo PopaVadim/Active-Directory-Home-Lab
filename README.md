@@ -70,8 +70,7 @@ https://user-images.githubusercontent.com/117952272/206577016-f6435850-780a-43fd
 <br />
 <br />
 <br/>
-<b>This is the Ethernet NIC status states that the following network adapter was looking for a DHCP server and couldn’t find one and was assigned an automatic internal address of 169.254.59.157</b><br /><br />
-  
+<b>This is the Ethernet NIC status states that the following network adapter was looking for a DHCP server and couldn’t find one and was assigned an automatic internal address of 169.254.59.157</b><br /><br /> 
 <img height="80%" width="80%" alt="Ethernet NIC" src="https://user-images.githubusercontent.com/117952272/206581038-f304de97-60d5-4f80-bd90-2e506dc582d1.png">
 <br />
 <br />
@@ -81,3 +80,6 @@ https://user-images.githubusercontent.com/117952272/206577016-f6435850-780a-43fd
 <br />
 <br />
 <br/>
+<b>Now we configure the internal network adapter according to our network diagram and assign it with the IP address of 172.16.0.1. We do not need to provide a default gateway since the Domain Controller is the gateway. Instead of using a DNS server address we assigned the preferred DNS Server with the loopback address since when we install Active Directory it automatically installs DNS so this server will use itself as a DNS.</b><br /><br /> 
+<img height="80%" width="80%" alt="Internal NIC Config" src="https://user-images.githubusercontent.com/117952272/206583052-9334381e-9f41-4570-be52-34fa17410fb3.png">
+
