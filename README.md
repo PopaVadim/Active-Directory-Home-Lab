@@ -46,10 +46,15 @@ This project is a walkthrough of how I created an Active Directory home lab Envi
 
 <br />
 <b>We installed Windows Server 2019 and created an Administrator account and a password for the lab purpose.</b> <br/><br />
-<img src="https://user-images.githubusercontent.com/117952272/206355026-05334a6e-490a-4ee8-92be-d459f291dcc2.mov" height="80%" width="80%" alt="Server 2019 Instal"/>
+
+https://user-images.githubusercontent.com/117952272/206575393-77ad8ac5-56b7-42bc-b599-9950a827c64a.mp4
+
 <br />
 <br />
-  <b>To improve overall VM usability we installed VirtualBox VM Guest Edition</b><br/>
+<br/>
+  <b>To improve overall VM usability we installed VirtualBox VM Guest Edition</b><br/><br />
+
+https://user-images.githubusercontent.com/117952272/206577016-f6435850-780a-43fd-bd60-c195d3fcf7ef.mp4
 
 
 
@@ -57,5 +62,5 @@ This project is a walkthrough of how I created an Active Directory home lab Envi
 
 
 
-https://user-images.githubusercontent.com/117952272/206572230-0018d169-ef5b-4d29-b396-4116370f55d0.mov
+
 
