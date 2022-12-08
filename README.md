@@ -56,10 +56,19 @@ https://user-images.githubusercontent.com/117952272/206575393-77ad8ac5-56b7-42bc
 
 https://user-images.githubusercontent.com/117952272/206577016-f6435850-780a-43fd-bd60-c195d3fcf7ef.mp4
 
+<br />
+<br />
+<br/>
+  <b>Here we will see which of the two adapters is an Internal NIC and which one is External NIC.</b><br /><br />
+<img height="80%" width="80%" alt="NIC Adapters" src="https://user-images.githubusercontent.com/117952272/206579161-6e95da1f-f01f-4b34-a7b7-645e255b2648.png">
+
+<br />
+<br />
+<br/>
+<b>This is the Ethernet2 NIC status states that the following network adapter is connected to the internet through ATT DNS server and has the IPv4 address of 10.0.2.15<b><br /><br />
 
 
-
-
+<img height="80%" width="80%" alt="Ethernet2 NIC" src="https://user-images.githubusercontent.com/117952272/206580367-a306617c-c1ae-43d3-a093-a7089d3f4dc2.png">
 
 
 
