@@ -85,7 +85,7 @@ https://user-images.githubusercontent.com/117952272/206577016-f6435850-780a-43fd
 <br />
 <br />
 <br/>
-<b>In the System Settings we gave the PC a proper name as DC which stands for Domain Controller.</b><br 
+<b>In the System Settings we gave the PC a proper name as DC which stands for Domain Controller.</b><br /> <br /> 
 <img height="80%" width="80%" alt="Renamed PC to DC" src="https://user-images.githubusercontent.com/117952272/206584207-c9f3ba90-3654-427b-b97f-5ded6bc41f38.png">
 <br />
 <br />
