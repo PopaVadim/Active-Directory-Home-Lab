@@ -44,6 +44,13 @@ This project is a walkthrough of how I created an Active Directory home lab Envi
 <br />
 <br />
 
+<br />
+<b>Here we set up the second Network Adapter that is dedicated to the internal virtual network.</b> <br/><br />
+<img src="https://user-images.githubusercontent.com/117952272/206355026-05334a6e-490a-4ee8-92be-d459f291dcc2.mov" height="80%" width="80%" alt="Server 2019 Instal"/>
+<br />
+<br />
+
+
 
 
 
