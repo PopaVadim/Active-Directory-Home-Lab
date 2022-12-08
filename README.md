@@ -73,6 +73,11 @@ https://user-images.githubusercontent.com/117952272/206577016-f6435850-780a-43fd
 <b>This is the Ethernet NIC status states that the following network adapter was looking for a DHCP server and couldn’t find one and was assigned an automatic internal address of 169.254.59.157</b><br /><br />
   
 <img height="80%" width="80%" alt="Ethernet NIC" src="https://user-images.githubusercontent.com/117952272/206581038-f304de97-60d5-4f80-bd90-2e506dc582d1.png">
-
-
-
+<br />
+<br />
+<br/>
+<b>I renamed the adapters so it’s easier to tell which one is which during the DC and DHCP set up.</b><br /><br />
+<img height="80%" width="80%" alt="Renamed NIC Adapters" src="https://user-images.githubusercontent.com/117952272/206582327-b3be7895-a334-4d5b-9c18-ece55429c907.png">
+<br />
+<br />
+<br/>
