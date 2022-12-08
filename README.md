@@ -45,7 +45,7 @@ This project is a walkthrough of how I created an Active Directory home lab Envi
 <br />
 
 <br />
-<b>We installed Windows Server 2019 and created an Administrator account and a password for the lab purpose only.</b> <br/><br />
+<b>We installed Windows Server 2019 and created an Administrator account and a password for the lab purpose.</b> <br/><br />
 <img src="https://user-images.githubusercontent.com/117952272/206355026-05334a6e-490a-4ee8-92be-d459f291dcc2.mov" height="80%" width="80%" alt="Server 2019 Instal"/>
 <br />
 <br />
