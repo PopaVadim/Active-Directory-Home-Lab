@@ -110,3 +110,12 @@ https://user-images.githubusercontent.com/117952272/206786470-e9a4b41e-151d-4ae6
 <br />
 <br />
 <br/>
+<b>Next step will be installing and configuring RAS (Remote Access Server) / NAT (Network Address Translation)</b><br /><br />  
+
+
+https://user-images.githubusercontent.com/117952272/206788909-38954410-5767-44ea-beca-29464531056a.mp4
+
+<br />
+<br />
+<br/>
+  
