@@ -97,4 +97,6 @@ https://user-images.githubusercontent.com/117952272/206587478-7639ba7b-91f5-44ff
   <br />
 <br />
 <br/>
+<b>After the Server was promoted to a Domain and it restarted we could see the Administrator account has MYDOMAIN in from of it and the installation was successful.</b><br /> <br />   
+<img height="80%" width="80%" alt="MyDomain" src="https://user-images.githubusercontent.com/117952272/206784055-16226ca3-5e83-4a8b-8e70-9b5e33a99c3f.png">
 
