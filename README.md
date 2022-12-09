@@ -94,9 +94,19 @@ https://user-images.githubusercontent.com/117952272/206577016-f6435850-780a-43fd
   
 https://user-images.githubusercontent.com/117952272/206587478-7639ba7b-91f5-44ff-bcef-0c548a912ad2.mp4
 
-  <br />
+<br />
 <br />
 <br/>
 <b>After the Server was promoted to a Domain and it restarted we could see the Administrator account has MYDOMAIN in from of it and the installation was successful.</b><br /> <br />   
 <img height="80%" width="80%" alt="MyDomain" src="https://user-images.githubusercontent.com/117952272/206784055-16226ca3-5e83-4a8b-8e70-9b5e33a99c3f.png">
+<br />
+<br />
+<br/>
+<b>Here we have build a new dedicated Admin account in the Active Directory.</b><br /> <br />   
+  
+  
+https://user-images.githubusercontent.com/117952272/206786470-e9a4b41e-151d-4ae6-a595-59b22d1e53d9.mp4
 
+<br />
+<br />
+<br/>
