@@ -132,5 +132,10 @@ https://user-images.githubusercontent.com/117952272/207143661-c7fd8928-1c22-4aa3
 <br />
 <br />
 <br/>
-
+<b>DHCP was installed successfully, now is time to configure it and setup a scope.  Dynamic Host Configuration Protocol (DHCP) is a protocol that automatically provides to a host an IP address and other related information like the subnet mask and gateway.  The scope that we will create will allow the DHCP server to assign Ip addresses from a specifically defined range in our case it will be from 172.16.0.100 to 172.16.0.200.</b><br /> <br /> 
   
+https://user-images.githubusercontent.com/117952272/207146606-368598ee-b261-4115-8bf0-f85dd6e45bfa.mp4
+
+<br />
+<br />
+<br/>
