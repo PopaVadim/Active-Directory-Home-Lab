@@ -139,3 +139,6 @@ https://user-images.githubusercontent.com/117952272/207146606-368598ee-b261-4115
 <br />
 <br />
 <br/>
+<b>Domain Controller and Active Directory is now configured. Next we will run a PowerShell script to create over 1000 user accounts. First, we have to update the PowerShell execution policy so we are able to run the script.</b><br /> <br />
+
+<img height="80%" width="80%" alt="Powershell Policy Update" src="https://user-images.githubusercontent.com/117952272/207148832-639638a8-dbc7-4077-859a-4bdb25259d91.png">
