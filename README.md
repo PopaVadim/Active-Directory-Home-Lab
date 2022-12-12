@@ -146,3 +146,5 @@ https://user-images.githubusercontent.com/117952272/207146606-368598ee-b261-4115
 <br />
 <br />
 <br/>
+<b>We run the script below and created over 1000 Active Directory users.</b><br /> <br />
+ 
