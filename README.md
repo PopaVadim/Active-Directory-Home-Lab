@@ -118,4 +118,14 @@ https://user-images.githubusercontent.com/117952272/206788909-38954410-5767-44ea
 <br />
 <br />
 <br/>
+<b>After adding roles and features we will continue with configuration of the Routing and Remote Access.</b><br /> <br /> 
+
+https://user-images.githubusercontent.com/117952272/207141743-908d7ca1-7782-42b0-be6c-e167c5364db2.mp4
+
+<br />
+<br />
+<br/>
+
+
+
   
