@@ -125,7 +125,12 @@ https://user-images.githubusercontent.com/117952272/207141743-908d7ca1-7782-42b0
 <br />
 <br />
 <br/>
+<b>Configuration of the Remote Access and Routing is done now is time to install DHCP Server. This will allow Windows 10 client to be assigned IP address and browse the internet.</b><br /> <br /> 
 
+https://user-images.githubusercontent.com/117952272/207143661-c7fd8928-1c22-4aa3-8c06-5df389b3b92c.mp4
 
+<br />
+<br />
+<br/>
 
   
