@@ -147,4 +147,66 @@ https://user-images.githubusercontent.com/117952272/207146606-368598ee-b261-4115
 <br />
 <br/>
 <b>We run the script below and created over 1000 Active Directory users.</b><br /> <br />
+
+
+
+https://user-images.githubusercontent.com/117952272/207984392-f114d1d5-2660-4508-bd11-30d59e6a8ec4.mp4
+
+<br />
+<br />
+<br/>
+<b>We are setting up a Windows 10 Virtual Machine in Oracle VirtualBox.</b><br /> <br />
+<img height="80%" width="80%" alt="WIN10 INSTAL" src="https://user-images.githubusercontent.com/117952272/207985542-aeb647cb-9169-4c1e-ba6a-684b35d9860e.png">
+
+<br />
+<br />
+<br/>
+<b>Afterwards in the windows created virtual machine we set up the 1st network adapter as an internal Network named intent.</b><br /> <br />
+
+<img height="80%" width="80%" alt="Net adapter VM" src="https://user-images.githubusercontent.com/117952272/207985774-a5de2fba-914e-4852-b1db-fa3a53255d5c.png">
+
+<br />
+<br />
+<br/>
+<b>After we are finished with the Windows 10 installation process we go to the System Proprieties we press Rename this PC (advance) then press change and rename the computer according to our diagram as CLIENT1 and join our domain named as mydomain.com. You should receive a welcome to the domain message if you were successful.</b><br /> <br />
+
+<img height="80%" width="80%" alt="Renamed PC_Join Domain" src="https://user-images.githubusercontent.com/117952272/207986222-672aa497-32be-488e-a0ff-59794b89fa8f.png">
+
+<br />
+<br />
+<br/>
+<b>For changes to take place we restarted the computer and try to log in into mydomain.com with our admin account.</b><br /> <br />
+  
+
+https://user-images.githubusercontent.com/117952272/207988354-cc6984f4-391f-4331-801d-0161587d9ca3.mp4
+
+
+<br />
+<br />
+<br/>
+<b>We accessed Command Prompt on our Client1 computer and use the ipconfig command to check if we succesfully joined the domain.</b><br /> <br /> 
+
+  
+
+<img height="80%" width="80%" alt="mydomain_cmd" src="https://user-images.githubusercontent.com/117952272/207988856-1311ce8d-d782-4cec-be16-3f4cb3264ff4.png">
+
+<br />
+<br />
+<br/>
+<b>In active directory we can check in DHCP our IPv4 Address Leases and find our Client 1 with the leased IP address of 172.16.0.100.</b><br /> <br />
+
+
+<img height="80%" width="80%" alt="Address Lease" src="https://user-images.githubusercontent.com/117952272/207989385-0640eb1e-0f9c-48d9-9841-b1f3eba340c6.png">
+
+<br />
+<br />
+<br/>
+<b>In Active Directory Users and Computers we could seee our Client1 computer and that is where we would see all the machines that are part of the domain.</b><br /> <br />
+
+<img height="80%" width="80%" alt="AD computers" src="https://user-images.githubusercontent.com/117952272/207989704-86a327e8-0769-4aaf-aea8-06ce1812b5e5.png">
+
+<br />
+<br />
+<br/>
+
  
