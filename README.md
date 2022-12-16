@@ -208,5 +208,12 @@ https://user-images.githubusercontent.com/117952272/207988354-cc6984f4-391f-4331
 <br />
 <br />
 <br/>
+<b>In order to be able to assign group policies settings to a particular group of objects and to ease the administration of the organization we creating a hierachy of all the users so if we want to implement a policy that affects only one group we should be able to do that. We opened Active Directory Users and Computer console and then right clicked on the domain and selected New, after that select Organizational Unit.</b><br /> <br /> 
 
+<img height="80%" width="80%" alt="AD_OU" src="https://user-images.githubusercontent.com/117952272/208204219-000d5494-c3e6-4a7e-92fc-9ca7d51fdfaf.png">
+
+
+
+
+<b>Below we created the Root Organizational Unit named Business Units.</b><br /> <br /> 
  
