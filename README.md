@@ -212,8 +212,14 @@ https://user-images.githubusercontent.com/117952272/207988354-cc6984f4-391f-4331
 
 <img height="80%" width="80%" alt="AD_OU" src="https://user-images.githubusercontent.com/117952272/208204219-000d5494-c3e6-4a7e-92fc-9ca7d51fdfaf.png">
 
+<br />
+<br />
+<br/>
 
-
-
-<b>Below we created the Root Organizational Unit named Business Units.</b><br /> <br /> 
+<b>Below we created the Root Organizational Unit named Business Units then jsut press ok to save it.</b><br /> <br /> 
  
+<img height="80%" width="80%" alt="New OU" src="https://user-images.githubusercontent.com/117952272/208523166-07ad5e8b-1e0b-45d9-acf0-ed6e3248ff95.png">
+
+<br />
+<br />
+<br/>
