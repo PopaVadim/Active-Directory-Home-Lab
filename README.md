@@ -216,10 +216,27 @@ https://user-images.githubusercontent.com/117952272/207988354-cc6984f4-391f-4331
 <br />
 <br/>
 
-<b>Below we created the Root Organizational Unit and named Business Units to save it press ok.</b><br /> <br /> 
+<b>Below we created the Root Organizational Unit and named Business Units to save it press the ok button.</b><br /> <br /> 
  
 <img height="80%" width="80%" alt="New OU" src="https://user-images.githubusercontent.com/117952272/208523166-07ad5e8b-1e0b-45d9-acf0-ed6e3248ff95.png">
 
 <br />
 <br />
 <br/>
+
+<b>To simulate an Active Directory of an organization we create two Organizational Units. One for All Managers to list separate children Organizational Units for all the managers in separate Organizational Units for each department and the second one for Departments and list all the individual departments. This will create structure and facilitate an easier manangment of the Active Directory.</b><br /> <br /> 
+
+<img height="80%" width="80%" alt="AD Organization" src="https://user-images.githubusercontent.com/117952272/208526961-012dda7e-53dc-4dda-8820-0a1bb4abe8c2.png">
+
+<br />
+<br />
+<br/>
+
+
+https://user-images.githubusercontent.com/117952272/208545952-dc73de34-8659-4177-a7ed-deefdc8ec801.mp4
+
+
+
+
+
+
