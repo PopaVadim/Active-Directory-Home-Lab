@@ -266,7 +266,7 @@ https://user-images.githubusercontent.com/117952272/209226776-b4a5f881-6ca9-4aa5
 <br/>
 
 
-<b>Here we can see that All Departments Groups were assigned a list of members which in our case are all the departments that are the part of the of our Organization.</b><br /> <br /> 
+<b>Here we can see that "All Departments Groups" was assigned a list of members which in our case are all the departments that are the part of our Organization.</b><br /> <br /> 
   
 <img height="80%" width="80%" alt="All Dept Groups" src="https://user-images.githubusercontent.com/117952272/209222524-48b9f653-36e7-49be-9741-9eec23a5871a.png">
   
@@ -282,6 +282,7 @@ https://user-images.githubusercontent.com/117952272/209226776-b4a5f881-6ca9-4aa5
  <img height="80%" width="80%" alt="Member of BU all groups" src="https://user-images.githubusercontent.com/117952272/209222960-3bbea293-637c-4416-b57e-e49157d60663.png">
 
 <br />
+<br />
 <br/>
 
 <b>I created a Diagram for our Organization Active Directory where we can see the structure of our Company. Later we can add other objects inside of our Organizational Units like servers, workstations, printers, applications and file shares and assign them with security policies. </b><br /> <br /> 
@@ -290,4 +291,18 @@ https://user-images.githubusercontent.com/117952272/209226776-b4a5f881-6ca9-4aa5
 
 <img height="80%" width="80%" alt="AD_Diagram" src="https://user-images.githubusercontent.com/117952272/209224172-354b6077-208f-4932-85bd-b5424b61ae78.png">
 
+<br />
+<br />
+<br/>
 
+<b>In the following video we added as members of the Parent Group "Business Units All Groups" all the groups of our organization so when we have to assign a policy to the whole organization we just assigned it to the Parent Group so everyone else will inherit it.</b><br /> <br /> 
+
+
+https://user-images.githubusercontent.com/117952272/209232405-9cadc947-3adb-400b-9378-0c3e01afd0fb.mp4
+
+
+<br />
+<br />
+<br/>
+  
+  
