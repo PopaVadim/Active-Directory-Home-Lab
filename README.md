@@ -231,12 +231,51 @@ https://user-images.githubusercontent.com/117952272/207988354-cc6984f4-391f-4331
 <br />
 <br />
 <br/>
-
+<b>In the video below we will trasnfer all the users to the Organizational Units that they belong.</b><br /> <br />
 
 https://user-images.githubusercontent.com/117952272/208545952-dc73de34-8659-4177-a7ed-deefdc8ec801.mp4
 
+<br />
+<br />
+<br/>
+
+<b>After we assigned all the users to the Organizational Units we will created inside every Organizational Unit individual Groups and eventually assign users to those Groups. We will start from the Parent OU all the way to every child OU. This will help us to impliment security policies a lot more efficiently.</b><br /> <br /> 
+
+
+<img height="80%" width="80%" alt="Group inside OU" src="https://user-images.githubusercontent.com/117952272/209221264-2cf59da5-d2d2-4b9f-8aa2-2f93c4be1ab8.png">
+
+<br />
+<br />
+<br/>
+<b>Here we are creating a child Organizational Unit for the Accounting Managers Group.</b><br /> <br /> 
+
+<img height="80%" width="80%" alt="Naming of Group" src="https://user-images.githubusercontent.com/117952272/209221910-5972db15-f4e3-49ab-95ce-434f9bb26c24.png">
+
+<br />
+<br />
+<br/>
+
+<b>Here we can see that All Departments Groups were assigned a list of members which in our case are all the departments that are the part of the of our Organization.</b><br /> <br /> 
+  
+<img height="80%" width="80%" alt="All Dept Groups" src="https://user-images.githubusercontent.com/117952272/209222524-48b9f653-36e7-49be-9741-9eec23a5871a.png">
+  
+ 
+<br />
+<br />
+<br/>
+
+<b>Therefore, we cna see that All Departments Groups was assigned to be a member of Business Units All Groups which is the Parent OU.</b><br /> <br /> 
+
+
+ <img height="80%" width="80%" alt="Member of BU all groups" src="https://user-images.githubusercontent.com/117952272/209222960-3bbea293-637c-4416-b57e-e49157d60663.png">
+
+<br />
+<br/>
+
+<b>I created a Diagram for our Organization Active Directory where we can see the structure of our Company.</b><br /> <br /> 
 
 
 
+<img height="80%" width="80%" alt="AD_Diagram" src="https://user-images.githubusercontent.com/117952272/209224172-354b6077-208f-4932-85bd-b5424b61ae78.png">
 
 
