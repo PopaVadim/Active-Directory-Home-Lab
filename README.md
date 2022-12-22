@@ -255,7 +255,7 @@ https://user-images.githubusercontent.com/117952272/208545952-dc73de34-8659-4177
 <br />
 <br/>
 
-<b>After we created all the Groups inside of the All Organizational Units we will assigned all the users to the newly created Groups that they belong to like we did in the example below for the Accounting Managers Group.</b><br /> <br /> 
+<b>After we created all the Groups inside of the All Organizational Units we will assigne all the users to the newly created Groups that they belong to. Below you can see the Accounting Managers Organizational Unit Users being assigned to the Accounting Managers Group.</b><br /> <br /> 
 
 
 https://user-images.githubusercontent.com/117952272/209226776-b4a5f881-6ca9-4aa5-849b-f3d44996ef1c.mp4
