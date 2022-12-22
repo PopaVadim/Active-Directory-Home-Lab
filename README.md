@@ -247,7 +247,7 @@ https://user-images.githubusercontent.com/117952272/208545952-dc73de34-8659-4177
 <br />
 <br />
 <br/>
-<b>Here we are creating a child Organizational Unit for the Accounting Managers Group.</b><br /> <br /> 
+<b>We named our Group Accounting Managers Group.</b><br /> <br /> 
 
 <img height="80%" width="80%" alt="Naming of Group" src="https://user-images.githubusercontent.com/117952272/209221910-5972db15-f4e3-49ab-95ce-434f9bb26c24.png">
 
