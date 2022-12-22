@@ -305,4 +305,14 @@ https://user-images.githubusercontent.com/117952272/209232405-9cadc947-3adb-400b
 <br />
 <br/>
   
+<b>Here is a the walk through our Company's Organizational Units and the User Groups we created.<b/> <b/ > <b/ >
   
+   
+
+https://user-images.githubusercontent.com/117952272/209243404-c9e7694c-55f0-4f7f-b252-569124c67e3b.mp4
+
+
+<br />
+<br />
+<br/>
+
