@@ -276,7 +276,7 @@ https://user-images.githubusercontent.com/117952272/209226776-b4a5f881-6ca9-4aa5
 <br/>
 
 
-<b>Therefore, we cna see that All Departments Groups was assigned to be a member of Business Units All Groups which is the Parent OU.</b><br /> <br /> 
+<b>Therefore, we can see that the object All Departments Groups was assigned to be a member of Business Units All Groups which is the Parent OU.</b><br /> <br /> 
 
 
  <img height="80%" width="80%" alt="Member of BU all groups" src="https://user-images.githubusercontent.com/117952272/209222960-3bbea293-637c-4416-b57e-e49157d60663.png">
@@ -284,7 +284,7 @@ https://user-images.githubusercontent.com/117952272/209226776-b4a5f881-6ca9-4aa5
 <br />
 <br/>
 
-<b>I created a Diagram for our Organization Active Directory where we can see the structure of our Company.</b><br /> <br /> 
+<b>I created a Diagram for our Organization Active Directory where we can see the structure of our Company. Later we can add other objects inside of our Organizational Units like servers, workstations, printers, applications and file shares and assign them with security policies. </b><br /> <br /> 
 
 
 
