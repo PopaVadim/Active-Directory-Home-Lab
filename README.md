@@ -216,7 +216,7 @@ https://user-images.githubusercontent.com/117952272/207988354-cc6984f4-391f-4331
 <br />
 <br/>
 
-<b>Below we created the Root Organizational Unit and named Business Units to save it press the ok button.</b><br /> <br /> 
+<b>Below we created the Root Organizational Unit and named "Business Units" to save it press the ok button.</b><br /> <br /> 
  
 <img height="80%" width="80%" alt="New OU" src="https://user-images.githubusercontent.com/117952272/208523166-07ad5e8b-1e0b-45d9-acf0-ed6e3248ff95.png">
 
@@ -247,7 +247,7 @@ https://user-images.githubusercontent.com/117952272/208545952-dc73de34-8659-4177
 <br />
 <br />
 <br/>
-<b>We named our Group Accounting Managers Group.</b><br /> <br /> 
+<b>We named our Group "Accounting Managers Group".</b><br /> <br /> 
 
 <img height="80%" width="80%" alt="Naming of Group" src="https://user-images.githubusercontent.com/117952272/209221910-5972db15-f4e3-49ab-95ce-434f9bb26c24.png">
 
@@ -255,7 +255,7 @@ https://user-images.githubusercontent.com/117952272/208545952-dc73de34-8659-4177
 <br />
 <br/>
 
-<b>After we created all the Groups inside of the All Organizational Units we will assigne all the users to the newly created Groups that they belong to. Below you can see the Accounting Managers Organizational Unit Users being assigned to the Accounting Managers Group.</b><br /> <br /> 
+<b>After we created all the Groups inside of every Organizational Unit of our organization, we will assigne all the users to the newly created Groups that they belong to. Below you can see the "Accounting Managers" Organizational Unit Users being assigned to the "Accounting Managers Group".</b><br /> <br /> 
 
 
 https://user-images.githubusercontent.com/117952272/209226776-b4a5f881-6ca9-4aa5-849b-f3d44996ef1c.mp4
@@ -276,7 +276,7 @@ https://user-images.githubusercontent.com/117952272/209226776-b4a5f881-6ca9-4aa5
 <br/>
 
 
-<b>Therefore, we can see that the object All Departments Groups was assigned to be a member of Business Units All Groups which is the Parent OU.</b><br /> <br /> 
+<b>Therefore, we can see that the object "All Departments Groups" was assigned to be a member of "Business Units All Groups" which is the Parent OU.</b><br /> <br /> 
 
 
  <img height="80%" width="80%" alt="Member of BU all groups" src="https://user-images.githubusercontent.com/117952272/209222960-3bbea293-637c-4416-b57e-e49157d60663.png">
