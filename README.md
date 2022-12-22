@@ -266,7 +266,7 @@ https://user-images.githubusercontent.com/117952272/209226776-b4a5f881-6ca9-4aa5
 <br/>
 
 
-<b>Here we can see that "All Departments Groups" was assigned a list of members which in our case are all the departments that are the part of our Organization.</b><br /> <br /> 
+<b>Here we can see that "All Departments Groups" was assigned a list of members which in our case are all the departments that are part of our Organization.</b><br /> <br /> 
   
 <img height="80%" width="80%" alt="All Dept Groups" src="https://user-images.githubusercontent.com/117952272/209222524-48b9f653-36e7-49be-9741-9eec23a5871a.png">
   
