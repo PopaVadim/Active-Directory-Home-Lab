@@ -255,6 +255,17 @@ https://user-images.githubusercontent.com/117952272/208545952-dc73de34-8659-4177
 <br />
 <br/>
 
+<b>After we created all the Groups inside of the All Organizational Units we will assigned the users of those specific Organizational Units to the newly created Groups that they belong to.</b><br /> <br /> 
+
+
+https://user-images.githubusercontent.com/117952272/209226776-b4a5f881-6ca9-4aa5-849b-f3d44996ef1c.mp4
+
+  
+<br />
+<br />
+<br/>
+
+
 <b>Here we can see that All Departments Groups were assigned a list of members which in our case are all the departments that are the part of the of our Organization.</b><br /> <br /> 
   
 <img height="80%" width="80%" alt="All Dept Groups" src="https://user-images.githubusercontent.com/117952272/209222524-48b9f653-36e7-49be-9741-9eec23a5871a.png">
@@ -263,6 +274,7 @@ https://user-images.githubusercontent.com/117952272/208545952-dc73de34-8659-4177
 <br />
 <br />
 <br/>
+
 
 <b>Therefore, we cna see that All Departments Groups was assigned to be a member of Business Units All Groups which is the Parent OU.</b><br /> <br /> 
 
