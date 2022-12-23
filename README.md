@@ -321,13 +321,55 @@ https://user-images.githubusercontent.com/117952272/209243404-c9e7694c-55f0-4f7f
 As soon as the Policy applied we opened our Client1 machine and picked a random user from our company to log in and tried to access Control Panel and check if the restrictions were applied. See the video for a detailed walk through. </b><br /> <br /> 
 
 
-
 https://user-images.githubusercontent.com/117952272/209409506-eb25a0ea-f9c6-4dc4-8484-2650cd913723.mp4
-
 
 
 <br />
 <br />
 <br/>
+
+<b>Below we followed the same directions and created and implimented another Group Policy for our Organization. To ensure system resources safety we decided to block access to Command Prompt to all members of our company except the IT Managers and IT Department. See the stept by step guide. </b><br /> <br /> 
+
+
+<img width="1316" alt="New GPO" src="https://user-images.githubusercontent.com/117952272/209413149-a341c55e-7204-41fd-b971-3d16a5e65f06.png">
+
+
+<img width="1319" alt="Block Command Prompt GPO" src="https://user-images.githubusercontent.com/117952272/209413169-b1632521-8783-4d67-9c15-8383d3465164.png">
+
+<img width="1320" alt="Edit_GPO" src="https://user-images.githubusercontent.com/117952272/209413199-62f7e4da-9f64-4519-8250-f802be5592e2.png">
+
+
+<img width="1320" alt="Config GPO" src="https://user-images.githubusercontent.com/117952272/209413204-b45f78cf-b23c-4239-b5d2-250a435f6226.png">
+
+
+<img width="1316" alt="Link GPO" src="https://user-images.githubusercontent.com/117952272/209413214-c3723d48-fd19-48b1-9587-888c2927b611.png">
+
+
+<img width="1321" alt="Link GPO 2" src="https://user-images.githubusercontent.com/117952272/209413224-c68a25e9-cd11-4575-92ee-088176f3041b.png">
+
+
+
+<b>Exclude IT<b/ > <b/>
+
+
+<img width="1317" alt="Exclude IT" src="https://user-images.githubusercontent.com/117952272/209413249-cf0c70c9-e0e2-4943-9f0d-c44ef9cddc59.png">
+
+<img width="1318" alt="Exclude IT2" src="https://user-images.githubusercontent.com/117952272/209413252-fdefb2fa-6eac-4b15-beef-02c0f495e244.png">
+
+
+<img width="1315" alt="Exclude IT3" src="https://user-images.githubusercontent.com/117952272/209413259-b8b447df-57cc-4ecc-aa0e-9a530cbf7917.png">
+
+
+<img width="1316" alt="Exclude IT4" src="https://user-images.githubusercontent.com/117952272/209413265-d06df7f1-2373-4b95-a25d-1e8538062bdd.png">
+
+
+<img width="1316" alt="Exclude IT5" src="https://user-images.githubusercontent.com/117952272/209413268-da705704-d9e3-46ce-b2e3-7450939a4e4d.png">
+
+
+
+
+
+
+https://user-images.githubusercontent.com/117952272/209413278-3ac09caa-fc93-44e7-b7f8-caddad071f76.mp4
 
 
