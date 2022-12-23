@@ -317,3 +317,19 @@ https://user-images.githubusercontent.com/117952272/209243404-c9e7694c-55f0-4f7f
 <br />
 <br/>
 
+<b>Below we created and implimented a Group Policy Objective to secure our network. We blocked access to Control Panel to the Parent Group "Business Units All Groups" therefore the security policy was inherited by all the children groups. To create a Group Policy Objective you open Server Manager go to Tools then find the Group Policy Managment. In our domain we will find the Group Policy Obejctives Organizational Unit right click it and create a new GPO and named accordingly to what it is supposed to do. After creation we will right click the newly created GPO and press Edit from there we will find Policies OU / Adminisrative  Templates / Control Panel / Prohibit access to Control Panel and PC settings. After we double clicked on it we will click on enable press apply and ok for the policy to take effect. To make sure that our Policy will take authority over our company's Organizational Unit we will right click Link an Existing GPO and find our newly created Policy and press ok.
+As soon as the Policy applied we open our Client1 machine and picked a random user from our company to log in and tried to access Control Panel and check if the restrictions were applied. See the video walk through. </b><br /> <br /> 
+
+
+
+
+
+https://user-images.githubusercontent.com/117952272/209409506-eb25a0ea-f9c6-4dc4-8484-2650cd913723.mp4
+
+
+
+<br />
+<br />
+<br/>
+
+
