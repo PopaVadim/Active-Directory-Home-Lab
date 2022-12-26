@@ -303,10 +303,9 @@ https://user-images.githubusercontent.com/117952272/209232405-9cadc947-3adb-400b
 
 
 <br />
-<br />
 <br/>
   
-<b>Here is a the walk through our Company's Organizational Units and the User Groups we created.<b/> <b/ > <b/ >
+<b>Here is a the walk through our Company's Organizational Units and the User Groups we created.</b><br /> <br /> 
   
    
 
@@ -347,15 +346,17 @@ https://user-images.githubusercontent.com/117952272/209409506-eb25a0ea-f9c6-4dc4
 
 <img width="1321" alt="Link GPO 2" src="https://user-images.githubusercontent.com/117952272/209413224-c68a25e9-cd11-4575-92ee-088176f3041b.png">
 
+</b><br /> <br /> 
 
 
 <b>Exclude IT Managers and IT Department users from this Group Policy. See below all the steps of how to exclude a user or group of users from a specific GPO.</b><br /> <br /> 
 
 
 
-<img width="1317" alt="Exclude IT" src="https://user-images.githubusercontent.com/117952272/209413249-cf0c70c9-e0e2-4943-9f0d-c44ef9cddc59.png">
+<img width="1317" alt="Exclude IT" src="https://user-images.githubusercontent.com/117952272/209579619-6bc21b75-fd24-4883-b38b-b4750f6b1c62.png">
 
-<img width="1318" alt="Exclude IT2" src="https://user-images.githubusercontent.com/117952272/209413252-fdefb2fa-6eac-4b15-beef-02c0f495e244.png">
+
+<img width="1318" alt="Exclude IT2" src="https://user-images.githubusercontent.com/117952272/209579519-f471a891-a05c-4de4-b990-e283aca1f60b.png">
 
 
 <img width="1315" alt="Exclude IT3" src="https://user-images.githubusercontent.com/117952272/209413259-b8b447df-57cc-4ecc-aa0e-9a530cbf7917.png">
