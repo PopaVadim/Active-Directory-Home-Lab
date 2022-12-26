@@ -349,7 +349,8 @@ https://user-images.githubusercontent.com/117952272/209409506-eb25a0ea-f9c6-4dc4
 
 
 
-<b>Exclude IT<b/ > <b/>
+<b>Exclude IT Managers and IT Department users from this Group Policy. See below all the steps of how to exclude a user or group of users from a specific GPO.</b><br /> <br /> 
+
 
 
 <img width="1317" alt="Exclude IT" src="https://user-images.githubusercontent.com/117952272/209413249-cf0c70c9-e0e2-4943-9f0d-c44ef9cddc59.png">
@@ -366,10 +367,11 @@ https://user-images.githubusercontent.com/117952272/209409506-eb25a0ea-f9c6-4dc4
 <img width="1316" alt="Exclude IT5" src="https://user-images.githubusercontent.com/117952272/209413268-da705704-d9e3-46ce-b2e3-7450939a4e4d.png">
 
 
+</b><br /> <br /> 
 
 
 
+<b>Here we will try to access the Command Prompt from a random user from our organization named Alane Dove, username "adove" that happend to be member of the Sales Managers Group. If our policy took effect and the access to Command Prompt was disabled for all users we can proceed and check if the execption for the IT Department and IT Managers was implimented as well. </b><br /> <br /> 
 
-https://user-images.githubusercontent.com/117952272/209413278-3ac09caa-fc93-44e7-b7f8-caddad071f76.mp4
-
+https://user-images.githubusercontent.com/117952272/209578473-c8b29d7a-1ead-4899-9105-787f6d8c1bc6.mp4
 
