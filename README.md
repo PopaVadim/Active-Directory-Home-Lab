@@ -376,3 +376,20 @@ https://user-images.githubusercontent.com/117952272/209409506-eb25a0ea-f9c6-4dc4
 
 https://user-images.githubusercontent.com/117952272/209578473-c8b29d7a-1ead-4899-9105-787f6d8c1bc6.mp4
 
+
+
+</b><br /> <br />
+
+<b>To harden our Organization we should continusly work on updating and improving our Group Polices so they are up to date to the most current security treats and vulnerabilities.</b><br /> <br />  
+
+<b>To keep data and other resources safe we denied access to Control Panel and to Command Prompt for our users in our organization.
+To further secure our Organization's Active Directory we will imppliment the following list of Group Policies:</b> 
+
+- <b>Prevent Windows from Storing LAN Manager Hash since they are weak and prone to hacking.</b><br /> 
+- <b>Disallow Removable Media Drives, DVDs, CDs, and Floppy Drives since they are pone to infection and could affect your entire Network.</b> <br /> 
+- <b>Restrict Software Installations since unwanted software can seriously compromise your network.</b> 
+- <b>Disable Guest Account is needed eventhough they are disabled by default. Since there is an risk of an override by haveing this Group Policy in place such attemps will be blocked.</b> <br /> 
+- <b>Disable Forced System Restarts to avoid important unsaved work.</b> <br /> 
+- <b>Set Minimum Password Length to Higher Limits for example elevated accounts passwords should be set to 15 charachters and regular at least 12 to avoid unnecessary risk.</b> <br /> 
+- <b>Set Maximum Password Age to Lower Limits to protect the network from stolen passwords.</b> <br /> 
+- <b>Disable Anonymous SID Enumeration Setting is disabled by default to avoid exploits and unauthorized access to data make sure it remains that way.</b> 
