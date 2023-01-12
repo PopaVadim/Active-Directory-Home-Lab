@@ -1,7 +1,7 @@
 <h1>Active Directory Home Lab With Bulk User Creation</h1>
 
 <h2>Description</h2>
-This project is a walkthrough of how I created an Active Directory home lab Environment using VirtualBox. I set up a Microsoft Server to run Active Directory on it. I then configure a Domain Controller that will allow me to run a domain. After that I ran a Powershell script to create over 1000 users in Active Directory and proceed to log into those newly created accounts on another client that uses the domain I set up to connect to the internet. This lab simulates a business environment. In this lab I'll need a Microsoft Server 2019 ISO, A Windows 10 Enterprise ISO, VMWare and a Powershell script. 
+This project is a walkthrough of how I created an Active Directory home lab Environment using VirtualBox. I set up a Microsoft Server to run Active Directory on it. I then configure a Domain Controller that will allow me to run a domain. After that, I ran a Powershell script to create over 1000 users in Active Directory and proceed to log into those newly created accounts on another client that uses the domain I set up to connect to the internet. This lab simulates a business environment. In this lab, I'll need a Microsoft Server 2019 ISO, A Windows 10 Enterprise ISO, VMWare, and a Powershell script. 
 <br />
 
 <h2>Languages and Utilities Used</h2>
@@ -57,13 +57,13 @@ https://user-images.githubusercontent.com/117952272/206577016-f6435850-780a-43fd
 <br />
 <br />
 <br/>
-  <b>Here we will see which of the two adapters is an Internal NIC and which one is External NIC.</b><br /><br />
+  <b>Here we will see which of the two adapters is an Internal NIC and which one is an External NIC.</b><br /><br />
 <img width="1677" alt="NIC Adapters" src="https://user-images.githubusercontent.com/117952272/206579161-6e95da1f-f01f-4b34-a7b7-645e255b2648.png">
 
 <br />
 <br />
 <br/>
-<b>This is the Ethernet2 NIC status states that the following network adapter is connected to the internet through ATT DNS server and has the IPv4 address of 10.0.2.15<b><br /><br />
+<b>This is the Ethernet2 NIC status states that the following network adapter is connected to the internet through the ATT DNS server and has the IPv4 address of 10.0.2.15<b><br /><br />
 <img width="1677" alt="Ethernet2 NIC" src="https://user-images.githubusercontent.com/117952272/206580367-a306617c-c1ae-43d3-a093-a7089d3f4dc2.png">
 <br />
 <br />
@@ -73,22 +73,22 @@ https://user-images.githubusercontent.com/117952272/206577016-f6435850-780a-43fd
 <br />
 <br />
 <br/>
-<b>I renamed the adapters so it’s easier to tell which one is which during the DC and DHCP set up.</b><br /><br />
+<b>I renamed the adapters so it’s easier to tell which one is which during the DC and DHCP setup.</b><br /><br />
 <img width="1677" alt="Renamed NIC Adapters" src="https://user-images.githubusercontent.com/117952272/206582327-b3be7895-a334-4d5b-9c18-ece55429c907.png">
 <br />
 <br />
 <br/>
-<b>Now we configure the internal network adapter according to our network diagram and assign it with the IP address of 172.16.0.1. We do not need to provide a default gateway since the Domain Controller is the gateway. Instead of using a DNS server address we assigned the preferred DNS Server with the loopback address since when we install Active Directory it automatically installs DNS so this server will use itself as a DNS.</b><br /><br /> 
+<b>Now we configure the internal network adapter according to our network diagram and assign it with the IP address of 172.16.0.1. We do not need to provide a default gateway since the Domain Controller is the gateway. Instead of using a DNS server address, we assigned the preferred DNS Server with the loopback address since when we install Active Directory it automatically installs DNS so this server will use itself as a DNS.</b><br /><br /> 
 <img width="1677" alt="Internal NIC Config" src="https://user-images.githubusercontent.com/117952272/206583052-9334381e-9f41-4570-be52-34fa17410fb3.png">
 <br />
 <br />
 <br/>
-<b>In the System Settings we gave the PC a proper name as DC which stands for Domain Controller.</b><br /> <br /> 
+<b>In the System Settings we gave the PC a proper name DC which stands for Domain Controller.</b><br /> <br /> 
 <img width="1677" alt="Renamed PC to DC" src="https://user-images.githubusercontent.com/117952272/206584207-c9f3ba90-3654-427b-b97f-5ded6bc41f38.png">
 <br />
 <br />
 <br/>
-<b>After we renamed the PC we pursued to install the Active Directory.</b><br /><br />  
+<b>After we renamed the PC we pursued installing the Active Directory.</b><br /><br />  
   
 https://user-images.githubusercontent.com/117952272/206587478-7639ba7b-91f5-44ff-bcef-0c548a912ad2.mp4
 
@@ -100,7 +100,7 @@ https://user-images.githubusercontent.com/117952272/206587478-7639ba7b-91f5-44ff
 <br />
 <br />
 <br/>
-<b>Here we have build a new dedicated Admin account in the Active Directory.</b><br /> <br />   
+<b>Here we have built a new dedicated Admin account in the Active Directory.</b><br /> <br />   
   
   
 https://user-images.githubusercontent.com/117952272/206786470-e9a4b41e-151d-4ae6-a595-59b22d1e53d9.mp4
@@ -116,28 +116,28 @@ https://user-images.githubusercontent.com/117952272/206788909-38954410-5767-44ea
 <br />
 <br />
 <br/>
-<b>After adding roles and features we will continue with configuration of the Routing and Remote Access.</b><br /> <br /> 
+<b>After adding roles and features we will continue with the configuration of the Routing and Remote Access.</b><br /> <br /> 
 
 https://user-images.githubusercontent.com/117952272/207141743-908d7ca1-7782-42b0-be6c-e167c5364db2.mp4
 
 <br />
 <br />
 <br/>
-<b>Configuration of the Remote Access and Routing is done now is time to install DHCP Server. This will allow Windows 10 client to be assigned IP address and browse the internet.</b><br /> <br /> 
+<b>Configuration of the Remote Access and Routing is done now is time to install DHCP Server. This will allow Windows 10 clients to be assigned IP addresses and browse the internet.</b><br /> <br /> 
 
 https://user-images.githubusercontent.com/117952272/207143661-c7fd8928-1c22-4aa3-8c06-5df389b3b92c.mp4
 
 <br />
 <br />
 <br/>
-<b>DHCP was installed successfully, now is time to configure it and setup a scope.  Dynamic Host Configuration Protocol (DHCP) is a protocol that automatically provides to a host an IP address and other related information like the subnet mask and gateway.  The scope that we will create will allow the DHCP server to assign Ip addresses from a specifically defined range in our case it will be from 172.16.0.100 to 172.16.0.200.</b><br /> <br /> 
+<b>DHCP was installed successfully, now is time to configure it and set up a scope.  Dynamic Host Configuration Protocol (DHCP) is a protocol that automatically provides a host with an IP address and other related information like the subnet mask and gateway.  The scope that we will create will allow the DHCP server to assign Ip addresses from a specifically defined range in our case it will be from 172.16.0.100 to 172.16.0.200.</b><br /> <br /> 
   
 https://user-images.githubusercontent.com/117952272/207146606-368598ee-b261-4115-8bf0-f85dd6e45bfa.mp4
 
 <br />
 <br />
 <br/>
-<b>Domain Controller and Active Directory is now configured. Next we will run a PowerShell script to create over 1000 user accounts. First, we have to update the PowerShell execution policy so we are able to run the script.</b><br /> <br />
+<b>Domain Controller and Active Directory is now configured. Next, we will run a PowerShell script to create over 1000 user accounts. First, we have to update the PowerShell execution policy so we are able to run the script.</b><br /> <br />
 
 <img width="1677" alt="Powershell Policy Update" src="https://user-images.githubusercontent.com/117952272/207148832-639638a8-dbc7-4077-859a-4bdb25259d91.png">
 
@@ -166,14 +166,14 @@ https://user-images.githubusercontent.com/117952272/207984392-f114d1d5-2660-4508
 <br />
 <br />
 <br/>
-<b>After we are finished with the Windows 10 installation process we go to the System Proprieties we press Rename this PC (advance) then press change and rename the computer according to our diagram as CLIENT1 and join our domain named as mydomain.com. You should receive a welcome to the domain message if you were successful.</b><br /> <br />
+<b>After we are finished with the Windows 10 installation process we go to the System Proprieties press Rename this PC (advance) then press change and rename the computer according to our diagram as CLIENT1 and join our domain named mydomain.com. You should receive a welcome to the domain message if you were successful.</b><br /> <br />
 
 <img width="1677" alt="Renamed PC_Join Domain" src="https://user-images.githubusercontent.com/117952272/207986222-672aa497-32be-488e-a0ff-59794b89fa8f.png">
 
 <br />
 <br />
 <br/>
-<b>For changes to take place we restarted the computer and try to log in into mydomain.com with our admin account.</b><br /> <br />
+<b>For changes to take place we restarted the computer and try to log in to mydomain.com with our admin account.</b><br /> <br />
   
 
 https://user-images.githubusercontent.com/117952272/207988354-cc6984f4-391f-4331-801d-0161587d9ca3.mp4
@@ -182,7 +182,7 @@ https://user-images.githubusercontent.com/117952272/207988354-cc6984f4-391f-4331
 <br />
 <br />
 <br/>
-<b>We accessed Command Prompt on our Client1 computer and use the ipconfig command to check if we succesfully joined the domain.</b><br /> <br /> 
+<b>We accessed Command Prompt on our Client1 computer and use the ipconfig command to check if we successfully joined the domain.</b><br /> <br /> 
 
   
 
@@ -191,7 +191,7 @@ https://user-images.githubusercontent.com/117952272/207988354-cc6984f4-391f-4331
 <br />
 <br />
 <br/>
-<b>In active directory we can check in DHCP our IPv4 Address Leases and find our Client 1 with the leased IP address of 172.16.0.100.</b><br /> <br />
+<b>In the active directory we can check in DHCP our IPv4 Address Leases and find our Client 1 with the leased IP address of 172.16.0.100.</b><br /> <br />
 
 
 <img width="1677" width="80%" alt="Address Lease" src="https://user-images.githubusercontent.com/117952272/207989385-0640eb1e-0f9c-48d9-9841-b1f3eba340c6.png">
@@ -199,14 +199,14 @@ https://user-images.githubusercontent.com/117952272/207988354-cc6984f4-391f-4331
 <br />
 <br />
 <br/>
-<b>In Active Directory Users and Computers we could seee our Client1 computer and that is where we would see all the machines that are part of the domain.</b><br /> <br />
+<b>In Active Directory Users and Computers we could see our Client1 computer and that is where we would see all the machines that are part of the domain.</b><br /> <br />
 
 <img width="1677" alt="AD computers" src="https://user-images.githubusercontent.com/117952272/207989704-86a327e8-0769-4aaf-aea8-06ce1812b5e5.png">
 
 <br />
 <br />
 <br/>
-<b>In order to be able to assign group policies settings to a particular group of objects and to ease the administration of the organization we creating a hierachy of all the users so if we want to implement a policy that affects only one group we should be able to do that. We opened Active Directory Users and Computer console and then right clicked on the domain and selected New, after that select Organizational Unit.</b><br /> <br /> 
+<b>In order to be able to assign group policies settings to a particular group of objects and to ease the administration of the organization we created a hierarchy of all the users so if we want to implement a policy that affects only one group we should be able to do that. We opened Active Directory Users and Computer console and then right-clicked on the domain and selected New, after that select Organizational Unit.</b><br /> <br /> 
 
 <img width="1677" alt="AD_OU" src="https://user-images.githubusercontent.com/117952272/208204219-000d5494-c3e6-4a7e-92fc-9ca7d51fdfaf.png">
 
@@ -214,7 +214,7 @@ https://user-images.githubusercontent.com/117952272/207988354-cc6984f4-391f-4331
 <br />
 <br/>
 
-<b>Below we created the Root Organizational Unit and named "Business Units" to save it press the ok button.</b><br /> <br /> 
+<b>Below we created the Root Organizational Unit and named it "Business Units" to save it press the ok button.</b><br /> <br /> 
  
 <img width="1677" alt="New OU" src="https://user-images.githubusercontent.com/117952272/208523166-07ad5e8b-1e0b-45d9-acf0-ed6e3248ff95.png">
 
@@ -222,14 +222,14 @@ https://user-images.githubusercontent.com/117952272/207988354-cc6984f4-391f-4331
 <br />
 <br/>
 
-<b>To simulate an Active Directory of an organization we create two Organizational Units. One for All Managers to list separate children Organizational Units for all the managers in separate Organizational Units for each department and the second one for Departments and list all the individual departments. This will create structure and facilitate an easier manangment of the Active Directory.</b><br /> <br /> 
+<b>To simulate an Active Directory of an organization we create two Organizational Units. One for All Managers to list separate children Organizational Units for all the managers in separate Organizational Units for each department and the second one for Departments and list all the individual departments. This will create structure and facilitate an easier management of the Active Directory.</b><br /> <br /> 
 
 <img width="1677" alt="AD Organization" src="https://user-images.githubusercontent.com/117952272/208526961-012dda7e-53dc-4dda-8820-0a1bb4abe8c2.png">
 
 <br />
 <br />
 <br/>
-<b>In the video below we will trasnfer all the users to the Organizational Units that they belong.</b><br /> <br />
+<b>In the video below we will transfer all the users to the Organizational Units that they belong.</b><br /> <br />
 
 https://user-images.githubusercontent.com/117952272/208545952-dc73de34-8659-4177-a7ed-deefdc8ec801.mp4
 
@@ -237,7 +237,7 @@ https://user-images.githubusercontent.com/117952272/208545952-dc73de34-8659-4177
 <br />
 <br/>
 
-<b>After we assigned all the users to the Organizational Units we will created inside every Organizational Unit individual Groups and eventually assign users to those Groups. We will start from the Parent OU all the way to every child OU. This will help us to impliment security policies a lot more efficiently.</b><br /> <br /> 
+<b>After we assigned all the users to the Organizational Units we will create inside every Organizational Unit individual Groups and eventually assign users to those Groups. We will start from the Parent OU all the way to every child OU. This will help us to implement security policies a lot more efficiently.</b><br /> <br /> 
 
 
 <img width="1677" alt="Group inside OU" src="https://user-images.githubusercontent.com/117952272/209221264-2cf59da5-d2d2-4b9f-8aa2-2f93c4be1ab8.png">
@@ -253,7 +253,7 @@ https://user-images.githubusercontent.com/117952272/208545952-dc73de34-8659-4177
 <br />
 <br/>
 
-<b>After we created all the Groups inside of every Organizational Unit of our organization, we will assigne all the users to the newly created Groups that they belong to. Below you can see the "Accounting Managers" Organizational Unit Users being assigned to the "Accounting Managers Group".</b><br /> <br /> 
+<b>After we created all the Groups inside of every Organizational Unit of our organization, we will assign all the users to the newly created Groups that they belong to. Below you can see the "Accounting Managers" Organizational Unit Users being assigned to the "Accounting Managers Group".</b><br /> <br /> 
 
 
 https://user-images.githubusercontent.com/117952272/209226776-b4a5f881-6ca9-4aa5-849b-f3d44996ef1c.mp4
@@ -285,7 +285,7 @@ https://user-images.githubusercontent.com/117952272/209226776-b4a5f881-6ca9-4aa5
 <br />
 <br/>
 
-<b>I created a Diagram for our Organization Active Directory where we can see the structure of our Company. Later we can add other objects inside of our Organizational Units like servers, workstations, printers, applications and file shares and assign them with security policies. </b><br /> <br /> 
+<b>I created a Diagram for our Organization Active Directory where we can see the structure of our Company. Later we can add other objects inside of our Organizational Units like servers, workstations, printers, applications, and file shares and assign them with security policies. </b><br /> <br /> 
 
 
 
@@ -305,7 +305,7 @@ https://user-images.githubusercontent.com/117952272/209232405-9cadc947-3adb-400b
 <br />
 <br/>
   
-<b>Here is a the walk through our Company's Organizational Units and the User Groups we created.</b><br /> <br /> 
+<b>Here is the walkthrough of our Company's Organizational Units and the User Groups we created.</b><br /> <br /> 
   
    
 
@@ -316,8 +316,8 @@ https://user-images.githubusercontent.com/117952272/209243404-c9e7694c-55f0-4f7f
 <br />
 <br/>
 
-<b>Below we created and implimented a Group Policy Objective to secure our network. We blocked access to Control Panel to the Parent Group "Business Units All Groups" therefore the security policy was inherited by all the children groups. To create a Group Policy Objective you open Server Manager go to Tools then find the Group Policy Managment. In our domain we will find the Group Policy Obejctives Organizational Unit right click it and create a new GPO and named accordingly to what it is supposed to do. After creation we will right click the newly created GPO and press Edit from there we will find Policies OU / Adminisrative  Templates / Control Panel / Prohibit access to Control Panel and PC settings. After we double clicked on it we will click on enable press apply and ok for the policy to take effect. To make sure that our Policy will take authority over our company's Organizational Unit we will right click Link an Existing GPO and find our newly created Policy and press ok.
-As soon as the Policy applied we opened our Client1 machine and picked a random user from our company to log in and tried to access Control Panel and check if the restrictions were applied. See the video for a detailed walk through. </b><br /> <br /> 
+<b>Below we created and implemented a Group Policy Objective to secure our network. We blocked access to Control Panel to the Parent Group "Business Units All Groups" therefore the security policy was inherited by all the children groups. To create a Group Policy Objective you open Server Manager go to Tools then find Group Policy Management. In our domain, we will find the Group Policy Objectives Organizational Unit right click it and create a new GPO, and name it accordingly to what it is supposed to do. After creation, we will right-click the newly created GPO and press Edit from there we will find Policies OU / Administrative Templates / Control Panel / Prohibit access to Control Panel and PC settings. After we double clicked on it we will click on enable press apply and ok for the policy to take effect. To make sure that our Policy will take authority over our company's Organizational Unit we will right-click the Link to an Existing GPO and find our newly created Policy and press ok.
+As soon as the Policy was applied we opened our Client1 machine and picked a random user from our company to log in and tried to access Control Panel and check if the restrictions were applied. See the video for a detailed walk-through. </b><br /> <br /> 
 
 
 https://user-images.githubusercontent.com/117952272/209409506-eb25a0ea-f9c6-4dc4-8484-2650cd913723.mp4
@@ -327,7 +327,7 @@ https://user-images.githubusercontent.com/117952272/209409506-eb25a0ea-f9c6-4dc4
 <br />
 <br/>
 
-<b>Below we followed the same directions and created and implimented another Group Policy for our Organization. To ensure system resources safety we decided to block access to Command Prompt to all members of our company except the IT Managers and IT Department. See the stept by step guide. </b><br /> <br /> 
+<b>Below we followed the same directions and created and implemented another Group Policy for our Organization. To ensure system resource's safety we decided to block access to Command Prompt to all members of our company except the IT Managers and IT Department. See the step by step guide. </b><br /> <br /> 
 
 
 <img width="1316" alt="New GPO" src="https://user-images.githubusercontent.com/117952272/209413149-a341c55e-7204-41fd-b971-3d16a5e65f06.png">
@@ -372,25 +372,25 @@ https://user-images.githubusercontent.com/117952272/209409506-eb25a0ea-f9c6-4dc4
 
 
 
-<b>Here we will try to access the Command Prompt from a random user from our organization named Alane Dove, username "adove" that happend to be member of the Sales Managers Group. If our policy took effect and the access to Command Prompt was disabled for all users we can proceed and check if the execption for the IT Department and IT Managers was implimented as well. </b><br /> <br /> 
+<b>Here we will try to access the Command Prompt from a random user from our organization named Alane Dove, username "adove" that happened to be a member of the Sales Managers Group. If our policy took effect and the access to Command Prompt was disabled for all users we can proceed and check if the exception for the IT Department and IT Managers was implemented as well. </b><br /> <br /> 
 
 https://user-images.githubusercontent.com/117952272/209578473-c8b29d7a-1ead-4899-9105-787f6d8c1bc6.mp4
 
 
 </b><br />
 
-<b>To harden our Organization we should continusly work on updating and improving our Group Polices so they are up to date to the most current security treats and vulnerabilities.</b>
+<b>To harden our Organization we should continuously work on updating and improving our Group policies so they are up to date with the most current security threats and vulnerabilities.</b>
 <b>To keep data and other resources safe we denied access to Control Panel and to Command Prompt for our users in our organization.
-To further secure our Organization's Active Directory as an Administrator I would impliment the following list of Group Policies:</b> 
+To further secure our Organization's Active Directory as an Administrator I would implement the following list of Group Policies:</b> 
 
 - <b>Prevent Windows from Storing LAN Manager Hash since they are weak and prone to hacking.</b><br /> 
-- <b>Disallow Removable Media Drives, DVDs, CDs, and Floppy Drives since they are pone to infection and could affect our entire Network.</b> <br /> 
+- <b>Disallow Removable Media Drives, DVDs, CDs, and Floppy Drives since they are prone to infection and could affect our entire Network.</b> <br /> 
 - <b>Restrict Software Installations since unwanted software can seriously compromise our network.</b> 
-- <b>Disable Guest Account is needed eventhough they are disabled by default. Since there is an risk of an override by haveing this Group Policy in place such attemps will be blocked.</b> <br /> 
+- <b>Disable Guest Account is needed even though they are disabled by default. Since there is a risk of an override by having this Group Policy in place such attempts will be blocked.</b> <br /> 
 - <b>Disable Forced System Restarts to avoid important unsaved work.</b> <br /> 
-- <b>Set Minimum Password Length to Higher Limits for example elevated accounts passwords should be set to 15 charachters and regular at least 12 to avoid unnecessary risk.</b> <br /> 
+- <b>Set Minimum Password Length to Higher Limits for example elevated accounts passwords should be set to 15 characters and regular at least 12 to avoid unnecessary risk.</b> <br /> 
 - <b>Set Maximum Password Age to Lower Limits to protect the network from stolen passwords.</b> <br /> 
-- <b>Disable Anonymous SID Enumeration Setting is disabled by default to avoid exploits and unauthorized access to data make sure it remains that way.</b>
+- <b>Disable Anonymous SID Enumeration setting is disabled by default to avoid exploits and unauthorized access to data make sure it remains that way.</b>
 
 <br />
 <br />
